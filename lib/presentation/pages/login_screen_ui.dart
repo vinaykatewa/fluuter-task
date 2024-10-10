@@ -139,8 +139,9 @@ class _LoginScreenState extends State<LoginScreen> {
   void _submitForm() async {
     if (_formKey.currentState!.validate()) {
       _formKey.currentState!.save();
+      String trimmedEmail = email.trim();
       try {
-        final response = await AuthService.login(email, password);
+        final response = await AuthService.login(trimmedEmail, password);
         FirebaseApi()
             .sendPushNotification('Welcome back', response['message'] ?? '');
         Navigator.push(

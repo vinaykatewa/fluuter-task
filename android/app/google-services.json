@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "279365912827",
+    "project_id": "fluttertask-ad3db",
+    "storage_bucket": "fluttertask-ad3db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279365912827:android:9e61849cc6a10c9f5c885e",
+        "android_client_info": {
+          "package_name": "com.example.fltask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA8DAlnclpD36bvJXh4pXv96dsQmI5Wh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
